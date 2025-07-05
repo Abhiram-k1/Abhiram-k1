@@ -2,8 +2,8 @@
   <img src="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/sci-fi-banner.png" alt="Sci-Fi Banner" width="80%"/>
 </p>
 
-<h1 align="center"><span style="color:#00fff7;">👾 Welcome, Intergalactic Visitor!</span></h1>
-<h2 align="center"><span style="color:#ffde59;">I'm <b>Kundurthi Abhiram</b> — AI Explorer & Data Voyager</span></h2>
+<h1 align="center" style="color:#00fff7;">👾 Greetings, Intergalactic Visitor!</h1>
+<h2 align="center" style="color:#ffde59;">I’m <b>Kundurthi Abhiram</b> — AI Explorer, Data Voyager, & Tech Leader</h2>
 
 ---
 
@@ -13,97 +13,96 @@
 
 ---
 
-## 🚀 Mission Log
+## 🚀 Mission Overview
 
 - **Origin:** Amrita Vishwa Vidyapeetham, Faridabad  
-- **Specialty:** B.Tech in Artificial Intelligence & Data Science  
-- **Current Role:** President, AI Club  
-- **Prime Directive:** Engineer real-world solutions with AI, data, and a dash of cosmic curiosity  
-- **Diplomatic Skills:** Tech outreach, team leadership, and interdisciplinary projects
+- **Specialization:** B.Tech in Artificial Intelligence & Data Science  
+- **Leadership:** President, AI Club  
+- **Mission:** Powering real-world solutions with AI, data, and curiosity  
+- **Strengths:** Tech outreach, interdisciplinary teamwork, project & team leadership
 
 ---
 
-## 🧬 Skill Matrix
+## 🧬 Skillset: The Abhiram Matrix
 
 <details>
   <summary>🖥️ <b>Programming Languages</b></summary>
 
-- Python <em>(Strong proficiency)</em>
-- HTML
-- C / C++ <em>(Academic background)</em>
+  - **Python:** Strong proficiency (data science, ML, automation, scripting)
+  - **HTML:** Frontend concepts and rapid prototyping
+  - **C / C++:** Academic exposure (fundamental algorithms, data structures)
 </details>
 
 <details>
   <summary>📊 <b>Data Science & Analytics</b></summary>
 
-- Data Wrangling & Cleaning: <b>Pandas, NumPy</b>
-- Visualization: <b>Matplotlib, Seaborn, Sweetviz</b>
-- Exploratory Data Analysis (EDA)
-- Statistical Analysis
-- Supervised & Unsupervised Learning: <b>Scikit-learn</b>
-- Performance Evaluation: Accuracy, Confusion Matrix, ROC-AUC, etc.
-- Customer Analytics & A/B Testing <em>(Quantium Job Sim)</em>
-- Risk Modeling & Financial Analysis <em>(Goldman Sachs Job Sim)</em>
+  - **Data Wrangling & Cleaning:** Pandas, NumPy
+  - **Visualization:** Matplotlib, Seaborn, Sweetviz
+  - **Exploratory Data Analysis (EDA):** Insight extraction, trend identification
+  - **Statistical Analysis:** Hypothesis testing, correlation, distributions
+  - **Supervised & Unsupervised Learning:** Scikit-learn for classification, regression, clustering
+  - **Performance Evaluation:** Accuracy, confusion matrix, ROC-AUC, F1-score, precision-recall
+  - **Customer Analytics & A/B Testing:** Quantium Job Sim experience
+  - **Risk Modeling & Financial Analysis:** Goldman Sachs Job Sim experience
 </details>
 
 <details>
   <summary>🧠 <b>AI / Machine Learning</b></summary>
 
-- ML Pipelines & Model Training
-- Classifier Comparison & Evaluation
-- Applied ML Projects: Loan prediction, tumor detection (in progress)
-- Interest in Deep Learning / Future Learning Path
+  - **ML Pipelines & Model Training:** End-to-end workflows, automation
+  - **Classifier Comparison & Evaluation:** Hands-on benchmarking and analysis
+  - **Applied ML Projects:** Loan prediction, tumor detection (in progress)
+  - **Deep Learning:** Eager to explore (future learning path)
 </details>
 
 <details>
-  <summary>🛠️ <b>Tools & Platforms</b></summary>
+  <summary>🛠️ <b>Tools & Cloud Platforms</b></summary>
 
-- Google Cloud Platform (GCP)
-- Firebase (Realtime Database, Hosting, Integration)
-- ThingSpeak (IoT data visualization and cloud connectivity)
-- Git / GitHub (Version Control)
-- Figma (for UI design and prototyping)
+  - **Google Cloud Platform (GCP):** BigQuery, Data storage, ML integration
+  - **Firebase:** Realtime Database, Hosting, Cloud functions, App integration
+  - **ThingSpeak:** IoT data visualization, real-time cloud connectivity
+  - **Git / GitHub:** Version control, collaboration, open-source contributions
+  - **Figma:** UI/UX design, wireframing, prototyping
 </details>
 
 <details>
   <summary>🌐 <b>Web & App Technologies</b></summary>
 
-- Frontend Concepts: HTML, Figma
-- Flutter (Basic knowledge – design focus)
+  - **HTML & Figma:** Designing and prototyping UIs
+  - **Flutter:** Basic understanding, cross-platform app design focus
 </details>
 
 <details>
   <summary>🔌 <b>Hardware & Embedded Systems</b></summary>
 
-- Arduino
-- Raspberry Pi
-- Piezoelectric sensors (for energy harvesting)
-- IoT Project Deployment (Smart City project)
+  - **Arduino & Raspberry Pi:** Rapid prototyping, sensor integration
+  - **Piezoelectric Sensors:** Energy harvesting for Smart City projects
+  - **IoT Deployments:** End-to-end data collection, cloud monitoring
 </details>
 
 <details>
   <summary>🧪 <b>Scientific & Mathematical Computing</b></summary>
 
-- Computational Mechanics (Physics background)
-- Python for mathematical modeling and simulations
-- Quantum Invariants Computation (in project proposal)
+  - **Computational Mechanics:** Physics background, mathematical modeling
+  - **Python for Simulations:** Analytical models, algorithmic problem-solving
+  - **Quantum Invariants Computation:** Project proposal for advanced computation
 </details>
 
 <details>
   <summary>🏆 <b>Leadership & Communication</b></summary>
 
-- AI Club President – Amrita Faridabad
-- Hackathon Participant – Led Virtual Labs enhancement project
-- House Captain – Vikings House, 2019–2020
-- Team Management & Task Distribution
+  - **AI Club President:** Led tech initiatives, workshops, and interdisciplinary projects
+  - **Hackathon Leadership:** Virtual Labs enhancement, team strategy and execution
+  - **House Captain (Vikings, 2019–2020):** Leadership, event organization, team mentoring
+  - **Team Management:** Task distribution, mentorship, conflict resolution
 </details>
 
 <details>
   <summary>💻 <b>Project Management & Collaboration</b></summary>
 
-- Hackathon Strategy
-- Task Allocation & Documentation
-- Notion / Trello-style planning
+  - **Hackathon Strategy:** Ideation, prototyping, pitch delivery
+  - **Task Allocation & Documentation:** Structured planning and reporting
+  - **Notion / Trello:** Agile workflows, sprint planning (assumed from leadership roles)
 </details>
 
 ---
@@ -111,24 +110,41 @@
 ## 🌠 Signature Projects
 
 ### 🦶 Smart City: Footstep Power Generation
-> Piezoelectric energy harvesting system with cloud-based monitoring.  
-> 🏆 **Best Hardware Project @ Amrita 2025**
-
-### 📊 Loan Prediction System
-> AI-driven classification for loan approvals using advanced ML and performance metrics.
-
-### 🌐 Bengaluru Data Agent
-> Multi-modal, map-based urban dashboard powered by Gemini and Firebase to tame the city’s data chaos.
+_Piezoelectric-based energy harvesting system with IoT cloud monitoring._  
+- **Tech:** Arduino, Piezo sensors, ThingSpeak, GCP
+- **Achievement:** 🏆 Best Hardware Project @ Amrita 2025
+- **Impact:** Pioneered sustainable energy solutions for urban infrastructure.
 
 ---
 
-## 🤖 Who is Abhiram?
+### 📊 Loan Prediction System
+_AI-powered loan approval classifier using supervised/unsupervised learning._  
+- **Tech:** Python, Pandas, Scikit-learn, Sweetviz
+- **Features:** Comprehensive EDA, robust evaluation metrics, real-world dataset
 
-> *"Data is the new fuel, and I love building spaceships that run on it."*
+---
 
-- Crafting interactive, impactful, and data-driven solutions
-- Experimenting at the crossroads of city analytics, hardware, and artificial intelligence
-- Leading events, cracking code in competitions, and discovering Bangalore's hidden gems
+### 🌐 Bengaluru Data Agent
+_Multimodal, map-based dashboard for urban data overload management._  
+- **Tech:** Gemini, Firebase, Python, JavaScript
+- **Features:** Real-time mapping, multimodal data fusion, scalable dashboards
+
+---
+
+### 🧪 Tumor Detection (In Progress)
+_AI-driven medical imaging classifier for early tumor recognition._  
+- **Tech:** Python, Scikit-learn, EDA, (Deep Learning planned)
+- **Goal:** Enhance diagnostic accuracy and speed
+
+---
+
+## 🤖 About Me
+
+> *“Data is the new fuel, and I love building spaceships that run on it.”*
+
+- I craft interactive, impactful, and data-driven solutions for the real world.
+- I thrive at the intersection of city analytics, smart hardware, and AI.
+- I lead events, compete in programming contests, and explore Bangalore’s hidden gems.
 
 ---
 
