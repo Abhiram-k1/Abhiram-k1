@@ -1,148 +1,144 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/sci-fi-banner.png" alt="Sci-Fi Banner" width="80%"/>
+  <span style="font-family:Orbitron,Consolas,monospace;font-size:2.2em;font-weight:bold;color:#00fff7;">
+    👾 WELCOME, INTERGALACTIC TRAVELER!
+  </span>
+  <br>
+  <span style="font-family:Orbitron,Consolas,monospace;font-size:1.3em;font-weight:bold;color:#ffde59;">
+    I'M KUNDURTHI ABHIRAM
+  </span>
+  <br>
+  <span style="font-family:Orbitron,Consolas,monospace;font-size:1.1em;color:#fff;">
+    AI EXPLORER • DATA VOYAGER • TECHNO-CREATOR
+  </span>
 </p>
 
-<h1 align="center" style="color:#00fff7;">👾 Greetings, Intergalactic Visitor!</h1>
-<h2 align="center" style="color:#ffde59;">I’m <b>Kundurthi Abhiram</b> — AI Explorer, Data Voyager, & Tech Leader</h2>
+---
+
+## 🚀 Galactic Mission Overview
+
+|  |  |
+|--|--|
+| 🪐 **Origin** | Amrita Vishwa Vidyapeetham, Faridabad |
+| 🧠 **Specialization** | B.Tech Artificial Intelligence & Data Science |
+| 👽 **Leadership** | President, AI Club |
+| 🌍 **Mission** | Engineering real-world solutions with AI, data, & cosmic curiosity |
+| 🦸‍♂️ **Strengths** | Tech outreach, interdisciplinary teamwork, project & team leadership |
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/ai-avatar.png" width="160" alt="AI Avatar" />
-</p>
-
----
-
-## 🚀 Mission Overview
-
-- **Origin:** Amrita Vishwa Vidyapeetham, Faridabad  
-- **Specialization:** B.Tech in Artificial Intelligence & Data Science  
-- **Leadership:** President, AI Club  
-- **Mission:** Powering real-world solutions with AI, data, and curiosity  
-- **Strengths:** Tech outreach, interdisciplinary teamwork, project & team leadership
-
----
-
-## 🧬 Skillset: The Abhiram Matrix
+## 🧬 Cosmic Skill Matrix
 
 <details>
   <summary>🖥️ <b>Programming Languages</b></summary>
-
-  - **Python:** Strong proficiency (data science, ML, automation, scripting)
-  - **HTML:** Frontend concepts and rapid prototyping
-  - **C / C++:** Academic exposure (fundamental algorithms, data structures)
+  <ul>
+    <li><b>Python</b> <em>(hyper-proficiency in data, ML, scripting)</em></li>
+    <li><b>HTML</b> <em>(web prototyping)</em></li>
+    <li><b>C/C++</b> <em>(academic, algorithmic logic)</em></li>
+  </ul>
 </details>
 
 <details>
   <summary>📊 <b>Data Science & Analytics</b></summary>
-
-  - **Data Wrangling & Cleaning:** Pandas, NumPy
-  - **Visualization:** Matplotlib, Seaborn, Sweetviz
-  - **Exploratory Data Analysis (EDA):** Insight extraction, trend identification
-  - **Statistical Analysis:** Hypothesis testing, correlation, distributions
-  - **Supervised & Unsupervised Learning:** Scikit-learn for classification, regression, clustering
-  - **Performance Evaluation:** Accuracy, confusion matrix, ROC-AUC, F1-score, precision-recall
-  - **Customer Analytics & A/B Testing:** Quantium Job Sim experience
-  - **Risk Modeling & Financial Analysis:** Goldman Sachs Job Sim experience
+  <ul>
+    <li><b>Pandas, NumPy</b> – Data wrangling & cleaning</li>
+    <li><b>Matplotlib, Seaborn, Sweetviz</b> – Visualization</li>
+    <li>Exploratory Data Analysis (EDA), statistical & performance evaluation</li>
+    <li>Supervised/Unsupervised ML: <b>Scikit-learn</b></li>
+    <li>Customer Analytics & A/B Testing (<i>Quantium</i>), Risk Modeling (<i>Goldman Sachs</i>)</li>
+  </ul>
 </details>
 
 <details>
   <summary>🧠 <b>AI / Machine Learning</b></summary>
-
-  - **ML Pipelines & Model Training:** End-to-end workflows, automation
-  - **Classifier Comparison & Evaluation:** Hands-on benchmarking and analysis
-  - **Applied ML Projects:** Loan prediction, tumor detection (in progress)
-  - **Deep Learning:** Eager to explore (future learning path)
+  <ul>
+    <li>ML pipelines, model training, classifier benchmarking</li>
+    <li>Projects: Loan prediction, Tumor detection (in progress)</li>
+    <li>Deep Learning (future path!)</li>
+  </ul>
 </details>
 
 <details>
-  <summary>🛠️ <b>Tools & Cloud Platforms</b></summary>
-
-  - **Google Cloud Platform (GCP):** BigQuery, Data storage, ML integration
-  - **Firebase:** Realtime Database, Hosting, Cloud functions, App integration
-  - **ThingSpeak:** IoT data visualization, real-time cloud connectivity
-  - **Git / GitHub:** Version control, collaboration, open-source contributions
-  - **Figma:** UI/UX design, wireframing, prototyping
+  <summary>🛠️ <b>Tools & Platforms</b></summary>
+  <ul>
+    <li>Google Cloud Platform, Firebase (Realtime DB, Hosting, Integration)</li>
+    <li>ThingSpeak (IoT cloud), Git/GitHub, Figma (UI Design/Prototyping)</li>
+  </ul>
 </details>
 
 <details>
-  <summary>🌐 <b>Web & App Technologies</b></summary>
-
-  - **HTML & Figma:** Designing and prototyping UIs
-  - **Flutter:** Basic understanding, cross-platform app design focus
+  <summary>🌐 <b>Web & App Tech</b></summary>
+  <ul>
+    <li>HTML, Figma (frontend & UI)</li>
+    <li>Flutter (design focus)</li>
+  </ul>
 </details>
 
 <details>
   <summary>🔌 <b>Hardware & Embedded Systems</b></summary>
-
-  - **Arduino & Raspberry Pi:** Rapid prototyping, sensor integration
-  - **Piezoelectric Sensors:** Energy harvesting for Smart City projects
-  - **IoT Deployments:** End-to-end data collection, cloud monitoring
+  <ul>
+    <li>Arduino, Raspberry Pi, Piezo Sensors</li>
+    <li>IoT deployments (Smart City project)</li>
+  </ul>
 </details>
 
 <details>
   <summary>🧪 <b>Scientific & Mathematical Computing</b></summary>
-
-  - **Computational Mechanics:** Physics background, mathematical modeling
-  - **Python for Simulations:** Analytical models, algorithmic problem-solving
-  - **Quantum Invariants Computation:** Project proposal for advanced computation
+  <ul>
+    <li>Computational Mechanics (physics), Python for simulations</li>
+    <li>Quantum Invariants Computation (project proposal)</li>
+  </ul>
 </details>
 
 <details>
   <summary>🏆 <b>Leadership & Communication</b></summary>
-
-  - **AI Club President:** Led tech initiatives, workshops, and interdisciplinary projects
-  - **Hackathon Leadership:** Virtual Labs enhancement, team strategy and execution
-  - **House Captain (Vikings, 2019–2020):** Leadership, event organization, team mentoring
-  - **Team Management:** Task distribution, mentorship, conflict resolution
+  <ul>
+    <li>AI Club President – led interdisciplinary projects & workshops</li>
+    <li>Hackathon Leader (Virtual Labs enhancement), House Captain (Vikings)</li>
+    <li>Team management, mentorship, event organization</li>
+  </ul>
 </details>
 
 <details>
   <summary>💻 <b>Project Management & Collaboration</b></summary>
-
-  - **Hackathon Strategy:** Ideation, prototyping, pitch delivery
-  - **Task Allocation & Documentation:** Structured planning and reporting
-  - **Notion / Trello:** Agile workflows, sprint planning (assumed from leadership roles)
+  <ul>
+    <li>Hackathon strategy, task allocation, documentation</li>
+    <li>Agile workflows (Notion/Trello style)</li>
+  </ul>
 </details>
 
 ---
 
 ## 🌠 Signature Projects
 
-### 🦶 Smart City: Footstep Power Generation
-_Piezoelectric-based energy harvesting system with IoT cloud monitoring._  
-- **Tech:** Arduino, Piezo sensors, ThingSpeak, GCP
-- **Achievement:** 🏆 Best Hardware Project @ Amrita 2025
-- **Impact:** Pioneered sustainable energy solutions for urban infrastructure.
+| Project | Description |
+|---------|-------------|
+| 🦶 **Smart City: Footstep Power Generation** | Piezoelectric-based energy harvesting with IoT cloud monitoring. <br>🏆 Best Hardware Project @ Amrita 2025 |
+| 📊 **Loan Prediction System** | AI-powered classifier for loan approvals using Python, Pandas, Scikit-learn, Sweetviz |
+| 🌐 **Bengaluru Data Agent** | Real-time, multimodal dashboard for urban data overload (Gemini, Firebase, Python, JS) |
+| 🧪 **Tumor Detection (In Progress)** | AI-driven classifier for early tumor recognition (Python, Scikit-learn, EDA) |
 
 ---
 
-### 📊 Loan Prediction System
-_AI-powered loan approval classifier using supervised/unsupervised learning._  
-- **Tech:** Python, Pandas, Scikit-learn, Sweetviz
-- **Features:** Comprehensive EDA, robust evaluation metrics, real-world dataset
+## 🧑‍🚀 Featured Repos & Research
 
----
-
-### 🌐 Bengaluru Data Agent
-_Multimodal, map-based dashboard for urban data overload management._  
-- **Tech:** Gemini, Firebase, Python, JavaScript
-- **Features:** Real-time mapping, multimodal data fusion, scalable dashboards
-
----
-
-### 🧪 Tumor Detection (In Progress)
-_AI-driven medical imaging classifier for early tumor recognition._  
-- **Tech:** Python, Scikit-learn, EDA, (Deep Learning planned)
-- **Goal:** Enhance diagnostic accuracy and speed
+| Project | Description |
+|---------|-------------|
+| [CLINICAL-DATA-ANALYSIS-AND-VISUALISATION](https://github.com/Abhiram-k1/CLINICAL-DATA-ANALYSIS-AND-VISUALISATION) | Advanced analytics & visualization of clinical datasets |
+| [LOAN-APPROVAL-PREDICTION-SYSTEM-MLBASED](https://github.com/Abhiram-k1/LOAN-APPROVAL-PREDICTION-SYSTEM-MLBASED) | ML classifier for loan approvals |
+| [LUNG-CANCER-HISTOPATHOLOGY-IMAGE-PROCESSING-AND-ANALYSIS](https://github.com/Abhiram-k1/LUNG-CANCER-HISTOPATHOLOGY-IMAGE-PROCESSING-AND-ANALYSIS) | Image processing pipeline for cancer detection |
+| [IMAGE-ANALYSIS-FOR-PCOS-DETECTION](https://github.com/Abhiram-k1/IMAGE-ANALYSIS-FOR-PCOS-DETECTION) | ML image analysis for PCOS |
+| [STATIC-WEBSITE-DEPLOYMENT](https://github.com/Abhiram-k1/STATIC-WEBSITE-DEPLOYMENT) | Responsive static website deployment |
+| [Abhiram-k1](https://github.com/Abhiram-k1/Abhiram-k1) | You are here! (Profile README) |
 
 ---
 
 ## 🤖 About Me
 
-> *“Data is the new fuel, and I love building spaceships that run on it.”*
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&duration=3500&pause=1200&color=FFDE59&center=true&vCenter=true&width=500&lines=Data+is+the+new+fuel.;I+love+building+spaceships+that+run+on+it." alt="About Me Animation" />
+</p>
 
-- I craft interactive, impactful, and data-driven solutions for the real world.
+- I craft interactive, impactful, and data-driven solutions for the real and digital worlds.
 - I thrive at the intersection of city analytics, smart hardware, and AI.
 - I lead events, compete in programming contests, and explore Bangalore’s hidden gems.
 
@@ -150,29 +146,26 @@ _AI-driven medical imaging classifier for early tumor recognition._
 
 ## 🛰️ Connect Across the Universe
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20me-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abhiram-k1)
-[![Gmail](https://img.shields.io/badge/Email-abhi8904876457@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:abhi8904876457@gmail.com)
-[![Phone](https://img.shields.io/badge/Phone-%2B91%207795747952-brightgreen?style=for-the-badge&logo=whatsapp)](tel:+917795747952)
+<p align="center">
+  <a href="https://www.linkedin.com/in/abhiram-k1" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/LinkedIn-00FFF7?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:abhi8904876457@gmail.com" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/Gmail-FF001E?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="tel:+917795747952" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/WhatsApp-16FF00?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  </a>
+</p>
 
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/sci-fi-divider.png" width="60%" alt="Sci-Fi Divider"/>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&duration=4000&pause=1000&color=00FFF7&center=true&vCenter=true&width=600&lines=May+the+data+be+ever+in+your+favor!;Building+the+future+one+byte+at+a+time...;AI+is+my+playground!" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&duration=4000&pause=1000&color=00FFF7&center=true&vCenter=true&width=600&lines=May+the+data+be+ever+in+your+favor!;Exploring+new+frontiers+in+AI...;Let's+create+the+future+together!" alt="Typing Animation" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Abhiram-k1&show_icons=true&theme=tokyonight&hide_border=true" alt="Abhiram's GitHub stats" />
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhiram-k1&theme=matrix&hide_border=true" alt="Abhiram's GitHub streak"/>
-</p>
-
----
-
-<p align="center">
-  <b><i>Exploring new frontiers in AI, one project at a time.</i></b> <br>
-  <b>Let's create the future together!</b>
 </p>
