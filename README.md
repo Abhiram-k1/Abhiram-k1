@@ -1,6 +1,6 @@
 <p align="center">
   <span style="font-family:Orbitron,Consolas,monospace;font-size:2.2em;font-weight:bold;color:#00fff7;">
-    👾 WELCOME, INTERGALACTIC TRAVELER!
+    👾 WELCOME!
   </span>
   <br>
   <span style="font-family:Orbitron,Consolas,monospace;font-size:1.3em;font-weight:bold;color:#ffde59;">
@@ -8,13 +8,13 @@
   </span>
   <br>
   <span style="font-family:Orbitron,Consolas,monospace;font-size:1.1em;color:#fff;">
-    AI EXPLORER • DATA VOYAGER • TECHNO-CREATOR
+    AI ENGINEER • DATA SCIENTIST
   </span>
 </p>
 
 ---
 
-## 🚀 Galactic Mission Overview
+## OVERVIEW 
 
 |  |  |
 |--|--|
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧬 Cosmic Skill Matrix
+## Skill Matrix
 
 <details>
   <summary>🖥️ <b>Programming Languages</b></summary>
