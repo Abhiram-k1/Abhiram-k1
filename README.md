@@ -125,8 +125,6 @@
 |---------|-------------|
 | [CLINICAL-DATA-ANALYSIS-AND-VISUALISATION](https://github.com/Abhiram-k1/CLINICAL-DATA-ANALYSIS-AND-VISUALISATION) | Advanced analytics & visualization of clinical datasets |
 | [LOAN-APPROVAL-PREDICTION-SYSTEM-MLBASED](https://github.com/Abhiram-k1/LOAN-APPROVAL-PREDICTION-SYSTEM-MLBASED) | ML classifier for loan approvals |
-| [LUNG-CANCER-HISTOPATHOLOGY-IMAGE-PROCESSING-AND-ANALYSIS](https://github.com/Abhiram-k1/LUNG-CANCER-HISTOPATHOLOGY-IMAGE-PROCESSING-AND-ANALYSIS) | Image processing pipeline for cancer detection |
-| [IMAGE-ANALYSIS-FOR-PCOS-DETECTION](https://github.com/Abhiram-k1/IMAGE-ANALYSIS-FOR-PCOS-DETECTION) | ML image analysis for PCOS |
 | [STATIC-WEBSITE-DEPLOYMENT](https://github.com/Abhiram-k1/STATIC-WEBSITE-DEPLOYMENT) | Responsive static website deployment |
 | [Abhiram-k1](https://github.com/Abhiram-k1/Abhiram-k1) | You are here! (Profile README) |
 
