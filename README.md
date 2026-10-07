@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/light.svg">
-    <img alt="Kundurthi Abhiram — profile.sh --live" src="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/light.svg?v=4">
+    <img alt="Kundurthi Abhiram — profile.sh --live" src="https://raw.githubusercontent.com/Abhiram-k1/Abhiram-k1/main/assets/dark.svg?v=4" width="100%">
   </picture>
 </p>
 
@@ -12,8 +12,8 @@
 </p>
 
 <p align="center">
-  <img width="49%" src="https://YOUR_VERCEL_INSTANCE.vercel.app/api?username=Abhiram-k1&show_icons=true&hide_rank=true&bg_color=0A101F&title_color=22D3EE&text_color=E2E8F0&icon_color=10B981&border_color=22D3EE" alt="Kundurthi Abhiram GitHub Stats" />
-  <img width="49%" src="https://YOUR_VERCEL_INSTANCE.vercel.app/api/top-langs/?username=Abhiram-k1&layout=compact&bg_color=0A101F&title_color=22D3EE&text_color=E2E8F0&border_color=22D3EE" alt="Kundurthi Abhiram Top Languages" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abhiram-k1&show_icons=true&hide_rank=true&bg_color=0A101F&title_color=22D3EE&text_color=E2E8F0&icon_color=10B981&border_color=22D3EE" alt="Kundurthi Abhiram GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhiram-k1&layout=compact&bg_color=0A101F&title_color=22D3EE&text_color=E2E8F0&border_color=22D3EE" alt="Kundurthi Abhiram Top Languages" />
 </p>
 
 <!-- ==================== CONTRIBUTION SNAKE ==================== -->
