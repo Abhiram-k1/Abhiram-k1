@@ -27,13 +27,13 @@ N_INTRO = 60
 BAND_NOISE_SIGMA = 4.0
 TARGET_DARK_DOTS = 17000
 
-# Head + shoulders crop of the new photo (240x272 -> 300x340)
-CROP = (15, 35, 255, 307)
+# Head + shoulders crop of the full uncropped photo (270x306 -> 300x340)
+CROP = (25, 45, 295, 351)
 
 
 # ---------------------------------------------------------------- portrait
 def load_portrait():
-    im = Image.open("refs/photo_new.png").convert("RGB").crop(CROP)
+    im = Image.open("refs/photo_full.png").convert("RGB").crop(CROP)
     im = im.resize((GW, GH), Image.LANCZOS)
     return im
 
@@ -47,8 +47,8 @@ def tone(im):
 
 
 def segment(im):
-    """Clean silhouette mask from data/mask_new.npy."""
-    mask = np.load("data/mask_new.npy")
+    """Clean silhouette mask from data/mask_full_clean.npy."""
+    mask = np.load("data/mask_full_clean.npy")
     return mask, mask.astype(float)
 
 
