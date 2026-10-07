@@ -257,6 +257,8 @@ def build(mode):
     svg = "".join(s)
     with open(f"out/{mode}.svg", "w", encoding="utf-8") as f:
         f.write(svg)
+    with open(f"assets/{mode}.svg", "w", encoding="utf-8") as f:
+        f.write(svg)
     print(f"{mode}.svg  {len(svg.encode()) / 1024:.0f} KB  dots={len(dots)}  bands={bands.max() + 1}  "
           f"intro_groups={intro.max() + 1}  last_row_y={y - ROW_DY}")
 

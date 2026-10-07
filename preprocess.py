@@ -33,8 +33,7 @@ CROP = (25, 45, 295, 351)
 
 # ---------------------------------------------------------------- portrait
 def load_portrait():
-    im = Image.open("refs/photo_full.png").convert("RGB").crop(CROP)
-    im = im.resize((GW, GH), Image.LANCZOS)
+    im = Image.open("refs/photo_cutout_cropped.png").convert("RGB")
     return im
 
 
@@ -47,8 +46,8 @@ def tone(im):
 
 
 def segment(im):
-    """Clean silhouette mask from data/mask_full_clean.npy."""
-    mask = np.load("data/mask_full_clean.npy")
+    """Clean silhouette mask from data/mask_cutout.npy."""
+    mask = np.load("data/mask_cutout.npy")
     return mask, mask.astype(float)
 
 
@@ -191,7 +190,15 @@ def main():
     print(f"dark density scale k={k:.3f}")
 
     # light: dots draw the dark parts, bounded by subject mask
-    light = fs_dither((1.0 - v) * 0.9, mask)
+    v_inv = 1.0 - v
+    v_inv[~mask] = 0
+    lo_l, hi_l = 0.2, 1.8
+    for _ in range(14):
+        kl = (lo_l + hi_l) / 2
+        nl = int(fs_dither(v_inv * kl, mask).sum())
+        lo_l, hi_l = (kl, hi_l) if nl < 17500 else (lo_l, kl)
+    light = fs_dither(v_inv * kl, mask)
+    print(f"light density scale kl={kl:.3f}")
 
     logos = [trace_logo(f"refs/{n}.png") for n in
              ("logo_antigravity", "logo_streamlit", "logo_code")]
