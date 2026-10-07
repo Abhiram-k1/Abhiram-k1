@@ -27,13 +27,13 @@ N_INTRO = 60
 BAND_NOISE_SIGMA = 4.0
 TARGET_DARK_DOTS = 17000
 
-# head + shoulders crop of the 375x500 photo (full width, aspect 300:340)
-CROP = (0, 20, 375, 20 + int(375 * GH / GW))
+# Head + shoulders crop of the new photo (240x272 -> 300x340)
+CROP = (15, 35, 255, 307)
 
 
 # ---------------------------------------------------------------- portrait
 def load_portrait():
-    im = Image.open("refs/photo.jpg").convert("RGB").crop(CROP)
+    im = Image.open("refs/photo_new.png").convert("RGB").crop(CROP)
     im = im.resize((GW, GH), Image.LANCZOS)
     return im
 
@@ -47,44 +47,9 @@ def tone(im):
 
 
 def segment(im):
-    """Subject mask: colour distance from wall colour -> close -> fill holes -> largest CC."""
-    a = np.asarray(im).astype(np.float64)
-    # The wall has a lighting gradient, so model it as a smooth (quadratic) colour field
-    # fitted to wall seeds (top rows + side strips above the shoulders), then threshold
-    # the colour distance from that field. Wall residual p99 ~6, shirt >= ~30.
-    yy, xx = np.mgrid[0:GH, 0:GW]
-    seed = np.zeros((GH, GW), bool)
-    seed[:10] = True
-    seed[:170, :8] = True
-    seed[:170, -8:] = True
-    basis = np.stack([np.ones_like(xx), xx, yy, xx ** 2, yy ** 2, xx * yy], -1).astype(np.float64)
-    coef, *_ = np.linalg.lstsq(basis[seed], a[seed], rcond=None)
-    score = np.linalg.norm(a - basis @ coef, axis=2)
-    # The head casts a shadow on the wall: same chroma as the wall but darker than the
-    # quadratic predicts. Wall chroma ~(0.349, 0.333); shirt is neutral (r <= 0.341) but its
-    # shadowed side gets warm, so the chroma rule only applies above the shoulder line.
-    chroma = a[..., :2] / (a.sum(2, keepdims=True) + 1e-6)
-    wall_c = np.median(chroma[seed], axis=0)
-    shadow = ((np.linalg.norm(chroma - wall_c, axis=2) < 0.0045)
-              & (a.mean(2) > 200) & (yy < 215))
-    m = (score > 16) & ~shadow
-    m = ndimage.binary_opening(m, iterations=1)
-    m = ndimage.binary_closing(m, structure=np.ones((3, 3)), iterations=4)
-    # subject touches the bottom edge -> pad bottom so fill_holes can close it
-    pad = np.vstack([m, np.ones((1, GW), bool)])
-    pad = ndimage.binary_fill_holes(pad)[:-1]
-    lab, n = ndimage.label(pad)
-    if n > 1:
-        sizes = ndimage.sum(pad, lab, range(1, n + 1))
-        pad = lab == (1 + int(np.argmax(sizes)))
-    # strip thin wall slivers bridged by the closing, keep the main body
-    disk = np.hypot(*np.mgrid[-3:4, -3:4]) <= 3.2
-    pad = ndimage.binary_opening(pad, structure=disk)
-    lab, n = ndimage.label(pad)
-    if n > 1:
-        sizes = ndimage.sum(pad, lab, range(1, n + 1))
-        pad = lab == (1 + int(np.argmax(sizes)))
-    return pad, score
+    """Clean silhouette mask from data/mask_new.npy."""
+    mask = np.load("data/mask_new.npy")
+    return mask, mask.astype(float)
 
 
 def fs_dither(v, mask=None):
@@ -215,16 +180,18 @@ def main():
     v = tone(im)
     mask, _ = segment(im)
 
-    # light: dots draw the dark parts, background kept
-    light = fs_dither(1.0 - v)
-    # dark: dots draw the lit subject; density scaled to land near the dot budget
-    lo, hi = 0.2, 1.0
+    # dark: dots draw the lit subject; shadow lift to highlight facial structure
+    v_lift = np.power(v, 0.6)
+    lo, hi = 0.2, 1.5
     for _ in range(14):
         k = (lo + hi) / 2
-        n = int(fs_dither(v * k, mask).sum())
+        n = int(fs_dither(v_lift * k, mask).sum())
         lo, hi = (k, hi) if n < TARGET_DARK_DOTS else (lo, k)
-    dark = fs_dither(v * k, mask)
+    dark = fs_dither(v_lift * k, mask)
     print(f"dark density scale k={k:.3f}")
+
+    # light: dots draw the dark parts, bounded by subject mask
+    light = fs_dither((1.0 - v) * 0.9, mask)
 
     logos = [trace_logo(f"refs/{n}.png") for n in
              ("logo_antigravity", "logo_streamlit", "logo_code")]
